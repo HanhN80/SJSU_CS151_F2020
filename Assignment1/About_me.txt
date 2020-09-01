@@ -1,0 +1,18 @@
+
+About Me
+    - My name is Hanh Nguyen
+    - You can call me Hahn
+    - My student ID: 014876069
+    - My major: Computer Science
+    - My preferred email address: hanh.nguyen01@sjsu.edu
+    - I am an undergraduate student status.
+    - Are you a graduating senior? 
+          -> No, I am not. 
+    - Are you repeating the class? 
+          -> No, I am not
+    - List other CS courses you've completed so far at SJSU: 
+          -> I have completed C programming, Java programming, Introduction to Computer System.
+    - Any additional information you would like me to know about you? 
+          -> I have been in the US for four years. This is my first semester at SJSU. I am living in Morgan Hill. 
+    - If we get the time during this semester I'd like to cover some special topics. Are there any specific topics you are interested in? I will try to accommodate majority interest in my lectures. 
+          -> I would like to study any special topics which you want to teach in the class. Thank you.
