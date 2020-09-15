@@ -1,0 +1,20 @@
+
+Differences between primitive data type int and class Integer:
+
+1. Integer is a Wrapper class, int is a primitive data type.
+
+2. Casting to String Variable: 
+	- Integer: We can use the integer (String) constructor to assign a String to an object of integer type. To convert a String into int value, we can also use parselnt(String).
+ 	- int    : we cannot assign a String value to an int variable directly or by casting. 
+
+3. Direct Conversion of value to other base: 
+	- Integer: Directly convert an integer value stored in Integer class to Binary, Octal or Hexadecimal format using toBinaryString(), toOctalString() or toHexString() respectively. 
+	- int	 : It is not in a variable of int type.
+
+4. Performing operations on data: 
+	- Integer: We can use reverse(), rotateLeft() and rotateRight() respectively to reverse numbers or rotate them. 
+	- int	 : Need to define own logic to perform these operations because its not an inbuilt class.
+5. Flexibility:
+	- Integer wrapper class provides more flexibility to the existing int datatype.
+	- We can perform many operations on an int value besides the predefined operators.
+	- Integer: we have more wrapper classes in Java corresponding to the data types.
