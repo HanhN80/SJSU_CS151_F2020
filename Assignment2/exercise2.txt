@@ -18,3 +18,9 @@ Differences between primitive data type int and class Integer:
 	- Integer wrapper class provides more flexibility to the existing int datatype.
 	- We can perform many operations on an int value besides the predefined operators.
 	- Integer: we have more wrapper classes in Java corresponding to the data types.
+
+Advantage:
+
+ 	- Int use just 32-bits of storage per value and fast as possible becausethe computer's hardware operates on int values directly. 
+	- Integer is a wrapper class for int data type, it allows us more flexibility in storing, converting and manipulating an int data.
+
