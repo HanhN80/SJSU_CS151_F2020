@@ -1,0 +1,233 @@
+Hanhs-Air:Assignment2 huynhthingochanh$ cd /Users/huynhthingochanh/Documents/Education/SJSU/SJSUCourses/Fall2020/CS151/Assignments/SJSU_CS151_F2020
+Hanhs-Air:SJSU_CS151_F2020 huynhthingochanh$ cd Assignment2
+Hanhs-Air:Assignment2 huynhthingochanh$ cd /Users/huynhthingochanh/Documents/Education/SJSU/SJSUCourses/Fall2020/CS151/Assignments/SJSU_CS151_F2020
+Hanhs-Air:SJSU_CS151_F2020 huynhthingochanh$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .DS_Store
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	Assignment2/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Hanhs-Air:SJSU_CS151_F2020 huynhthingochanh$ git add -A
+Hanhs-Air:SJSU_CS151_F2020 huynhthingochanh$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   .DS_Store
+	new file:   Assignment2/.DS_Store
+	new file:   Assignment2/Animal.java
+	new file:   Assignment2/AnimalTest.java
+	new file:   Assignment2/Cat.java
+	new file:   Assignment2/Dog.java
+	new file:   Assignment2/Domesticated.java
+	new file:   Assignment2/Employee.java
+	new file:   Assignment2/EmployeeTest.java
+	new file:   Assignment2/Person.java
+	new file:   Assignment2/Product.java
+	new file:   Assignment2/Raccoon.java
+	new file:   Assignment2/Scratcher.java
+	new file:   Assignment2/Student.java
+	new file:   Assignment2/StudentTest.java
+	new file:   Assignment2/Swimmer.java
+	new file:   Assignment2/Whale.java
+	new file:   Assignment2/exercise2.txt
+
+Hanhs-Air:SJSU_CS151_F2020 huynhthingochanh$ git commit -m "there are my assignment2 changes"
+[master 6bb85c5] there are my assignment2 changes
+ 18 files changed, 830 insertions(+)
+ create mode 100644 Assignment2/.DS_Store
+ create mode 100644 Assignment2/Animal.java
+ create mode 100644 Assignment2/AnimalTest.java
+ create mode 100644 Assignment2/Cat.java
+ create mode 100644 Assignment2/Dog.java
+ create mode 100644 Assignment2/Domesticated.java
+ create mode 100644 Assignment2/Employee.java
+ create mode 100644 Assignment2/EmployeeTest.java
+ create mode 100644 Assignment2/Person.java
+ create mode 100644 Assignment2/Product.java
+ create mode 100644 Assignment2/Raccoon.java
+ create mode 100644 Assignment2/Scratcher.java
+ create mode 100644 Assignment2/Student.java
+ create mode 100644 Assignment2/StudentTest.java
+ create mode 100644 Assignment2/Swimmer.java
+ create mode 100644 Assignment2/Whale.java
+ create mode 100644 Assignment2/exercise2.txt
+Hanhs-Air:SJSU_CS151_F2020 huynhthingochanh$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+Hanhs-Air:SJSU_CS151_F2020 huynhthingochanh$ git push
+Enumerating objects: 23, done.
+Counting objects: 100% (23/23), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (21/21), done.
+Writing objects: 100% (21/21), 8.29 KiB | 1.38 MiB/s, done.
+Total 21 (delta 6), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (6/6), completed with 1 local object.
+To https://github.com/HanhN80/SJSU_CS151_F2020.git
+   c602866..6bb85c5  master -> master
+Hanhs-Air:SJSU_CS151_F2020 huynhthingochanh$ cd Assignment2
+Hanhs-Air:Assignment2 huynhthingochanh$ javac EmployeeTest
+error: Class names, 'EmployeeTest', are only accepted if annotation processing is explicitly requested
+1 error
+Hanhs-Air:Assignment2 huynhthingochanh$ javac EmployeeTest.java
+Hanhs-Air:Assignment2 huynhthingochanh$ java EmployeeTest
+Employee Information: 
+First name: John
+Last name : Smith
+Age       : 28
+Social No : 111 222 333
+Address   : 123 Cheyenne Ct
+Gender    : Male
+Weight    : 123.0
+ID        : 1000000
+Status    : contractor
+Base Pay  : 20.0
+Hour Aweek: 30.0
+Week      : 0.0
+------------------------------
+Net Payment: 600.0
+------------------------------
+
+First name: Lisa
+Last name : Gray
+Age       : 40
+Social No : 123 111 333
+Address   : 100 Peets
+Gender    : Femal
+Weight    : 111.0
+ID        : 1000001
+Status    : fulltime
+Base Pay  : 110000.0
+Hour Aweek: 0.0
+Week      : 2.0
+------------------------------
+Net Payment: 4230.77 
+------------------------------
+
+First name: Timothy
+Last name : Briggs
+Age       : 35
+Social No : 124 100 331
+Address   : 102 Morning Star
+Gender    : Male
+Weight    : 140.0
+ID        : 1000002
+Status    : fulltime
+Base Pay  : 80000.0
+Hour Aweek: 0.0
+Week      : 4.0
+------------------------------
+Net Payment: 6153.85 
+------------------------------
+
+First name: George
+Last name : Wallace
+Age       : 38
+Social No : 120 101 321
+Address   : 967 Evening Star
+Gender    : Male
+Weight    : 160.0
+ID        : 1000003
+Status    : parttime
+Base Pay  : 20.0
+Hour Aweek: 25.0
+Week      : 0.0
+------------------------------
+Net Payment: 500.0
+------------------------------
+
+First name: Amy
+Last name : Lee
+Age       : 22
+Social No : 100 101 111
+Address   : 1787 Legend Ct
+Gender    : Femal
+Weight    : 112.0
+ID        : 1000004
+Status    : contractor
+Base Pay  : 45.0
+Hour Aweek: 45.0
+Week      : 0.0
+------------------------------
+Net Payment: 2025.0
+------------------------------
+
+Hanhs-Air:Assignment2 huynhthingochanh$ javac AnimalTest.java
+Hanhs-Air:Assignment2 huynhthingochanh$ java AnimalTest
+
+I am animal
+I am a Dog
+I am male
+I live at home
+I can move 20 mph
+I can call Woof
+I eat dog food
+I can sleep about 10 minutes,
+I can bark
+I am domesticated
+I can walk
+I can greet Humman
+------------
+I am animal
+I am a Cat
+I am female
+I live at home
+I can move 31 mph
+I can call Meow
+I eat Cat food
+I can sleep almost all day
+I can scratch
+I am domesticated
+I can walk
+I can greet Humman
+------------
+I am animal
+I am a Raccoon
+I am male
+I live in the forest
+I can move 9.9-15 mph
+I can call Chittering
+I eat both plants and other animals
+I prefer sleeping in large holes in trees
+I can scratch
+------------
+I am a fish
+I am a Whale
+I am female
+I live in the Ocean
+I can move 31 mph
+I can call Whistles
+I eat krill, fish
+I can rest quietly in the water
+I can swim
+------------
+Hanhs-Air:Assignment2 huynhthingochanh$ javac Studenttest.java
+Studenttest.java:3: error: class StudentTest is public, should be declared in a file named StudentTest.java
+public class StudentTest {
+       ^
+1 error
+Hanhs-Air:Assignment2 huynhthingochanh$ javac StudentTest.java
+Hanhs-Air:Assignment2 huynhthingochanh$ java Student
+Error: Main method not found in class Student, please define the main method as:
+   public static void main(String[] args)
+or a JavaFX application class must extend javafx.application.Application
+Hanhs-Air:Assignment2 huynhthingochanh$ java StudentTest
+
+John Smith , 20 years old,  3.6 gpa,   Computer Science,  Computer Science department 
+Student's schedule: 
+         CS151 Tue/Thur 6-7:15
+         Eng101 Mon/Wed 10-11:15
+         Hist100 Tue/Thur 1:30-2:45
+Hanhs-Air:Assignment2 huynhthingochanh$ 
