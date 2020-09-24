@@ -1,0 +1,172 @@
+~/Documents/Education/SJSU/SJSUCourses/Fall2020/CS151/Assignments/SJSU_CS151_F2020/Assignment3> javac BusinessTest.java
+~/Documents/Education/SJSU/SJSUCourses/Fall2020/CS151/Assignments/SJSU_CS151_F2020/Assignment3> java BusinessTest
+
+FullTime Salaried Employee Information: 
+           ********          
+First name    : Kevin
+Last name 	   : Do
+Age           : 45
+Address       : 1111, Evening Star , Morgan Hill, 95037, CA
+EmployeeID	   : 105
+EducationLevel: BS Degree
+Direct Deposit: true
+SSN No: 112-34-5617
+
+------------------------------
+Net payment a month: $9230.77 
+------------------------------
+
+First name    : Roz
+Last name 	   : Lee
+Age           : 40
+Address       : 1000, Maclaughlin , San Jose, 95032, CA
+EmployeeID	   : 106
+EducationLevel: BS Degree
+Direct Deposit: true
+SSN No: 102-74-3371
+
+------------------------------
+Net payment a month: $16153.85 
+------------------------------
+
+
+FullTime Hourly Employee Information: 
+           ********          
+First name    : Ryan
+Last name 	   : Le
+Age           : 28
+Address       : 1002, Mckee , San Jose, 95033, CA
+EmployeeID	   : 107
+EducationLevel: BS Degree
+Direct Deposit: true
+SSN No: 111-22-2111
+
+------------------------------
+Payment a week: $2307.69 
+------------------------------
+
+First name    : George
+Last name 	   : Wallace
+Age           : 36
+Address       : 1055, Tennant , San Martin, 95044, CA
+EmployeeID	   : 108
+EducationLevel: BS Degree
+Direct Deposit: true
+SSN No: 111-99-2155
+
+------------------------------
+Net Payment a week: $2044.15 
+------------------------------
+
+
+PartTime Hourly Employee Information: 
+           ********          
+First name    : John
+Last name 	   : Smith
+Age           : 28
+Address       : 1002, Rose , Santa Clara, 95033, CA
+EmployeeID	   : 102
+EducationLevel: BS Degree
+Direct Deposit: true
+SSN No: 111-22-2333
+
+-----------------------------
+Compute Pay: $600.00
+-----------------------------
+
+First name    : David
+Last name 	   : Chung
+Age           : 43
+Address       : 1045, Peet , Santa Clara, 95035, CA
+EmployeeID	   : 103
+EducationLevel: MS Degree
+Direct Deposit: true
+SSN No: 111-22-1312
+
+-----------------------------
+Compute Pay: $1575.00
+-----------------------------
+
+
+Contractor Employee Information: 
+           ********          
+First name    : YangLing
+Last name 	   : Huang
+Age           : 35
+Address       : 1234, Main , Santa Clara, 95035, CA
+EmployeeID	   : 104
+EducationLevel: BS Degree
+Direct Deposit: true
+SSN No: 111-11-1112
+-----------------------------
+Compute Pay: 1665.00
+-----------------------------
+
+First name    : Anping
+Last name 	   : Oal
+Age           : 10
+Address       : 1555, Blue , San Jose, 95035, CA
+EmployeeID	   : 105
+EducationLevel: BS Degree
+Direct Deposit: true
+SSN No: 123-22-2111
+-----------------------------
+Compute Pay: 625.00
+-----------------------------
+
+Executive Information: 
+           ********          
+First name    : Kevin
+Last name 	   : Do
+Age           : 45
+Address       : 1111, Evening Star , Morgan Hill, 95037, CA
+EmployeeID	   : 105
+EducationLevel: BS Degree
+Direct Deposit: true
+SSN No: 112-34-5617
+
+------------------------------
+Salary + Yearly Bonus: $150000.00 
+------------------------------
+
+First name    : Roz
+Last name 	   : Lee
+Age           : 40
+Address       : 1000, Maclaughlin , San Jose, 95032, CA
+EmployeeID	   : 106
+EducationLevel: BS Degree
+Direct Deposit: true
+SSN No: 102-74-3371
+
+------------------------------
+Salary + Yearly Bonus: $150000.00 
+------------------------------
+
+
+Customer's Information: 
+           ********          
+
+First name     : Timothy
+Last name      : Briggs
+Age            : 52
+Social No      : 101-23-7689
+Address        : 1545, Lemon , San Jose, 95037, CA
+CustomerID     : 201
+PayPreference  : Paid
+----------------------------------------
+Customer pay by transfer
+Customer already Paid 
+----------------------------------------
+
+First name     : Fred
+Last name      : Nguyen
+Age            : 46
+Social No      : 123-28-7779
+Address        : 1902, Morning Star , Morgan Hill, 95037, CA
+CustomerID     : 206
+PayPreference  : NotPay
+----------------------------------------
+Customer pay by Check
+Customer need to Pay 
+----------------------------------------
+
