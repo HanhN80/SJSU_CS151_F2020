@@ -1,0 +1,7 @@
+
+You can type contents here:
+Name: Hanh Nguyen
+School: San Jose State University 
+Course: Object-Oriented Design
+Transfer from: Mission College
+Year: 2020
